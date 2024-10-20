@@ -36,7 +36,7 @@
 
             bindings = <
 &kp TAB    &kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp RIGHT_BRACKET       &kp K_PREVIOUS  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_NEXT  &kp K_PLAY_PAUSE  &kp BSPC
-&kp LCTRL  &trans            &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL               &kp LEFT        &kp DOWN           &kp UP           &kp RIGHT   &kp CAPS          &trans
+&kp LCTRL  &kp MINUS         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EQUAL               &kp LEFT        &kp DOWN           &kp UP           &kp RIGHT   &kp CAPS          &trans
 &kp LSHFT  &kp N0            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NON_US_BACKSLASH    &kp INSERT      &kp HOME           &kp PAGE_DOWN    &kp PG_UP   &kp END           &trans
                                            &kp LGUI      &trans        &kp SPACE               &kp RET         &trans             &kp RALT
             >;
@@ -51,7 +51,7 @@
 
             bindings = <
 &kp TAB    &kp LEFT_BRACE  &kp AMPS  &kp ASTRK    &kp LPAR   &kp RIGHT_BRACE    &kp F12  &kp F7  &kp F8    &kp F9  &kp PRINTSCREEN  &kp BACKSPACE
-&kp LCTRL  &trans          &kp DLLR  &kp PERCENT  &kp CARET  &kp PLUS           &kp F11  &kp F4  &kp F5    &kp F6  &trans           &kp LSHFT
+&kp LCTRL  &kp UNDERSCORE  &kp DLLR  &kp PERCENT  &kp CARET  &kp PLUS           &kp F11  &kp F4  &kp F5    &kp F6  &trans           &kp LSHFT
 &kp LSHFT  &kp TILDE       &kp EXCL  &kp AT       &kp HASH   &kp PIPE           &kp F10  &kp F1  &kp F2    &kp F3  &trans           &kp LGUI
                                      &trans       &kp SPACE  &kp RET            &trans   &mo 3   &kp RALT
             >;
