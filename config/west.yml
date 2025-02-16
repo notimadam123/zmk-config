@@ -19,6 +19,9 @@ manifest:
       revision: v0.1+mouse
       import: app/west.yml
 
+    - name: kb_zmk_ps2_mouse_trackpoint_driver
+      remote: infused-kim
+      revision: main
     - name: zmk-adaptive-key
       path: modules/zmk/adaptive-key
     - name: zmk-auto-layer
