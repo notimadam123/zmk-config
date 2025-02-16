@@ -90,7 +90,7 @@
   MouseTP_layer {
           display-name = "TP";
           bindings = <
-U_TOG_TP_SET             U_TOG_TP_SET             &trans                   &trans                   &msc SCRL_UP             &trans                        &trans                   &trans                   &trans                   &trans                   U_TOG_TP_SET              U_TOG_TP_SET
+&trans &trans &trans                   &trans                   &msc SCRL_UP             &trans                        &trans                   &trans                   &trans                   &trans                   U_TOG_TP_SET              U_TOG_TP_SET
 &trans                   &trans                   &trans                   &trans                   &trans                   &trans                        &trans                   &trans                   &trans                   &trans                   &trans                    &trans         
 &trans                   &trans                   &trans                   &trans                   &msc SCRL_DOWN           &trans                        &trans                   &trans                   &trans                   &trans                   &trans                    &trans
 &mkp MCLK                &mkp LCLK                &mkp RCLK                     &mkp MCLK                &mkp LCLK                &mkp RCLK
@@ -98,6 +98,7 @@ U_TOG_TP_SET             U_TOG_TP_SET             &trans                   &tran
         };
     
         // You can find the defines for the actual key press behaviors in `include/mouse_tp.dtsi`.
+        /*
 MouseSettings_layer {
           display-name = "TP Set";
           bindings = <
@@ -107,6 +108,7 @@ U_MSS_LOG                U_MSS_LOG                &none                    U_MSS
 &trans                   &mkp LCLK                &mkp RCLK                     &none                    &mkp LCLK                &mkp RCLK
           >;
         };
+        */
 #endif
     };
 };
