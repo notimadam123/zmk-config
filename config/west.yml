@@ -8,10 +8,10 @@ manifest:
       url-base: https://github.com/urob
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: duckyb
-      url-base: https://github.com/duckyb
     - name: infused-kim
       url-base: https://github.com/infused-kim
+    - name: duckyb
+      url-base: https://github.com/duckyb
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
@@ -19,9 +19,6 @@ manifest:
       revision: v0.1+mouse
       import: app/west.yml
 
-    - name: kb_zmk_ps2_mouse_trackpoint_driver
-      remote: infused-kim
-      revision: main
     - name: zmk-adaptive-key
       path: modules/zmk/adaptive-key
     - name: zmk-auto-layer
