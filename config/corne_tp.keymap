@@ -83,11 +83,11 @@
                         &trans  &trans  &trans    &trans          &trans        &trans
             >;
         };
-    #ifdef HAS_MOUSE_TP
+#ifdef HAS_MOUSE_TP
     
         // Automatically activated when the mouse or trackpoint moves.
         // Configured in `include/mouse_tp.dtsi`.
-        MouseTP_layer {
+  MouseTP_layer {
           display-name = "TP";
           bindings = <
     // ╭────────────────────────┬────────────────────────┬────────────────────────┬────────────────────────┬────────────────────────┬────────────────────────╮    ╭────────────────────────┬────────────────────────┬────────────────────────┬────────────────────────┬────────────────────────┬────────────────────────╮
@@ -103,7 +103,7 @@
         };
     
         // You can find the defines for the actual key press behaviors in `include/mouse_tp.dtsi`.
-        MouseSettings_layer {
+MouseSettings_layer {
           display-name = "TP Set";
           bindings = <
     // ╭────────────────────────┬────────────────────────┬────────────────────────┬────────────────────────┬────────────────────────┬────────────────────────╮    ╭────────────────────────┬────────────────────────┬────────────────────────┬────────────────────────┬────────────────────────┬────────────────────────╮
