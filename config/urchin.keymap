@@ -13,7 +13,7 @@
 #define THUMBS LH1 LH0 RH0 RH1                                              // Thumb keys.
 
 /* Left-hand HRMs. */
-/ {     ZMK_HOLD_TAP(hml,
+    ZMK_HOLD_TAP(hml,
             flavor = "balanced";
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
@@ -80,7 +80,7 @@
             bindings = <&kp LSHIFT &kp RSHIFT &kp LCTRL &kp RCTRL &kp LALT &kp RALT &kp LGUI &kp RGUI>;
         };
     };
-
+/ {
     combos {
         compatible = "zmk,combos";
 
@@ -118,7 +118,8 @@
             layers = <0>;
         };
     };
-
+  };
+/ {
     keymap {
         compatible = "zmk,keymap";
 
@@ -172,5 +173,4 @@
             >;
         };
     };
-};
 };
