@@ -13,6 +13,7 @@
 #define THUMBS LH1 LH0 RH0 RH1                                              // Thumb keys.
 
 /* Left-hand HRMs. */
+/ {
     ZMK_HOLD_TAP(hml,
             flavor = "balanced";
             tapping-term-ms = <280>;
@@ -33,6 +34,7 @@
             hold-trigger-key-positions = <KEYS_L THUMBS>;
             hold-trigger-on-release;
     )
+};
 
 // Layer definitions
 
